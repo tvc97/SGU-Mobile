@@ -77,27 +77,3 @@ public class StudentListAdapter extends ArrayAdapter<Student> {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
