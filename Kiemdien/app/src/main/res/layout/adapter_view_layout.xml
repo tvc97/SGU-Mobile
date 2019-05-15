@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="33.3"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="3dp"
+        >
+
+        <TextView
+            android:gravity="center_vertical"
+            android:text="Trần Văn Cương"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvName"
+            android:layout_below="@+id/tvMSSV"
+            android:paddingVertical="3dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:text="3115410009"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMSSV"
+            android:paddingVertical="3dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="12:01:02\n20/08/2019"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCheckIn"
+        android:layout_weight="66.6"/>
+
+    <ImageButton
+        android:id="@+id/btnCheckIn"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/point"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        />
+
+</LinearLayout>
