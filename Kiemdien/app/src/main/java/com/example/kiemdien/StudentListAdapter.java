@@ -12,8 +12,6 @@ import java.util.ArrayList;
 
 public class StudentListAdapter extends ArrayAdapter<Student> {
 
-    private static final String TAG = "PersonListAdapter";
-
     private Context mContext;
     private int mResource;
 
