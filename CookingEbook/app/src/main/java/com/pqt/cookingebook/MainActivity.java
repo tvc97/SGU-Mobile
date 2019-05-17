@@ -57,7 +57,7 @@ public class MainActivity extends Activity {
 
 
         items.add(new Item("https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2011/12/7/0/CCECC111_Steamed-Sea-Bass-with-Ginger-and-Chinese-Mushrooms-Recipe-01_s4x3.jpg.rend.hgtvcom.616.462.suffix/1351632819905.jpeg",
-                "Steamed Sea Bass with Ginger and Chinese Mushrooms\n",
+                "Steamed Sea Bass with Ginger and Chinese Mushrooms",
                 "https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2011/12/7/0/CCECC111_Steamed-Sea-Bass-with-Ginger-and-Chinese-Mushrooms-Recipe-01_s4x3.jpg.rend.hgtvcom.616.462.suffix/1351632819905.jpeg",
                 "https://www.cookingchanneltv.com/recipes/ching-he-huang/steamed-sea-bass-with-ginger-and-chinese-mushrooms-2042296"));
 
